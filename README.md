@@ -30,3 +30,31 @@ pip install -r requirements.txt
 
 deactivate
 ```
+
+### Running the script in development mode:
+
+Note the venv needs to be activated
+
+```bash
+python3 hello/hello.py 
+```
+
+
+### Installing the script and using it as a package
+
+```bash
+
+## install the script
+## below will run setup.py and install all required dependencies,
+## finally installing it in some /bin/ folder which will allow to call it
+## from the command line
+
+pip install .
+
+### Now when it's installed, just call it
+
+hello
+
+```
+
+
