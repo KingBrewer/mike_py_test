@@ -1,0 +1,8 @@
+# virtual environment
+
+helloenv
+
+## distribution / packaging
+build/
+*.egg
+*.egg-info/
